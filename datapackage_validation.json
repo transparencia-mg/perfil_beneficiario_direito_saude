@@ -1,0 +1,101 @@
+{
+  "version": "4.16.6",
+  "time": 0.37,
+  "errors": [],
+  "tasks": [
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "benef_saude",
+        "path": "data/Benef_SAUDE.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "ano_mes_ref",
+              "type": "integer"
+            },
+            {
+              "name": "nom_municipio",
+              "type": "string"
+            },
+            {
+              "name": "sgl_uf",
+              "type": "string"
+            },
+            {
+              "name": "macro_regional_ipsemg",
+              "type": "string"
+            },
+            {
+              "name": "micro_regional_ipsemg",
+              "type": "string"
+            },
+            {
+              "name": "bh_rmbh_interior_ipsemg",
+              "type": "string"
+            },
+            {
+              "name": "dsc_sexo",
+              "type": "string"
+            },
+            {
+              "name": "desc_faixa_etaria",
+              "type": "string"
+            },
+            {
+              "name": "qtde_benef",
+              "type": "integer"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "2ed2f46785ff335cd3d0b516bee3e303",
+          "bytes": 1361320,
+          "fields": 9,
+          "rows": 18269
+        }
+      },
+      "time": 0.36,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    }
+  ],
+  "stats": {
+    "errors": 0,
+    "tasks": 1
+  },
+  "valid": true
+}
