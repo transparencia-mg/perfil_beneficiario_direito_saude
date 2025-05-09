@@ -1,0 +1,36 @@
+name: perfil_beneficiario_direito_saude
+owner_org: instituto-de-previdencia-dos-servidores-do-estado-de-minas-gerais-ipsemg
+profile: data-package
+resources:
+  - description: Insira a descrição/explicação detalhada deste recurso.
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: benef_saude
+    path: data/Benef_SAUDE.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: ano_mes_ref
+          type: integer
+        - name: nom_municipio
+          type: string
+        - name: sgl_uf
+          type: string
+        - name: macro_regional_ipsemg
+          type: string
+        - name: micro_regional_ipsemg
+          type: string
+        - name: bh_rmbh_interior_ipsemg
+          type: string
+        - name: dsc_sexo
+          type: string
+        - name: desc_faixa_etaria
+          type: string
+        - name: qtde_benef
+          type: integer
+    scheme: file
+    title: Insira um título humanamente legível para este recurso.
+title: Perfil_beneficiario_direito_saude
