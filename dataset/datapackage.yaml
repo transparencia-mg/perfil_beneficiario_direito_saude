@@ -36,7 +36,7 @@ resources:
         - name: bh_rmbh_interior_ipsemg
           type: string
           title: Região Metropolitana de BH ou interior
-          description: Identifica o território do beneficiário a partir da região metropolitana. Valores possíveis:  Região Metropolitana de Belo Horizonte (RMBH), Interior (quando não se aplica a Região Metropolitana) e Belo Horizonte (BH)
+          description: Identifica o território do beneficiário a partir da região metropolitana. Valores possíveis  Região Metropolitana de Belo Horizonte (RMBH), Interior (quando não se aplica a Região Metropolitana) e Belo Horizonte (BH)
         - name: dsc_sexo
           type: string
           title: Descrição do Sexo
