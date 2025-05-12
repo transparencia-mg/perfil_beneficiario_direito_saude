@@ -2,7 +2,7 @@ name: perfil_beneficiario_direito_saude
 owner_org: instituto-de-previdencia-dos-servidores-do-estado-de-minas-gerais-ipsemg
 profile: data-package
 resources:
-  - description: Insira a descrição/explicação detalhada deste recurso.
+  - description: Apresenta os principais elementos demográficos apresentando território, sexo e faixa etária conforme padrões da ANS.
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -50,5 +50,5 @@ resources:
           title: Quantidade de beneficiários
           description: Apresenta o valor total de beneficiário apresentado por conjunto.
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-title: Perfil_beneficiario_direito_saude
+    title: Perfil_beneficiario_direito_saude
+title: Perfil Beneficiário Direito Saúde
