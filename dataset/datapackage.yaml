@@ -2,7 +2,7 @@ name: perfil_beneficiario_direito_saude
 owner_org: instituto-de-previdencia-dos-servidores-do-estado-de-minas-gerais-ipsemg
 profile: data-package
 resources:
-  - description: Apresenta os principais elementos demográficos apresentando território, sexo e faixa etária conforme padrões da ANS.
+  - description: Apresenta os principais elementos demográficos — território, sexo e faixa etária — conforme os padrões definidos pela Agência Nacional de Saúde Suplementar (ANS).
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -16,7 +16,10 @@ resources:
         - name: ano_mes_ref
           type: integer
           title: Data de referência
-          description: Ano e mês, respectivamente, correspondente ao dado - ano/mês (aaaa_mm).
+          description: > 
+          Ano e mês, respectivamente, correspondente ao dado.
+          notes:
+           - Formato - aaaamm.
         - name: nom_municipio
           type: string
           title: Nome do Município
@@ -24,19 +27,25 @@ resources:
         - name: sgl_uf
           type: string
           title: UF
-          description: Unidade Federativa
+          description: Unidade Federativa referente ao Município de origem do beneficiário.
         - name: macro_regional_ipsemg
           type: string
           title: Macrorregião do beneficiário
-          description: Macrorregião de origem do beneficiário. A macrorregião é o espaço geográfico que envolve um conjunto de microrregiões agrupadas pela densidade demográfica, hierarquizado em função do nível de atenção primária, secundária e terciária à saúde com capacidade instalada.
+          description: >
+          Macrorregião de origem do beneficiário. 
+          A macrorregião é o espaço geográfico que envolve um conjunto de microrregiões agrupadas pela densidade demográfica, hierarquizado em função do nível de atenção primária, 
+          secundária e terciária à saúde com capacidade instalada.
         - name: micro_regional_ipsemg
           type: string
           title: Microrregião do benefiicário
-          description: Microrregião de origem do beneficiário. A microrregião é o espaço geográfico que envolve um conjunto de municípios agrupados pela densidade demográfica e hierarquizado em função do nível de atenção primária, secundária e terciária à saúde, com capacidade instalada e com distância aproximada de 100 km entre eles.
+          description: >
+          Microrregião de origem do beneficiário. A microrregião é o espaço geográfico que envolve um conjunto de municípios agrupados pela densidade demográfica e 
+          hierarquizado em função do nível de atenção primária, secundária e terciária à saúde, com capacidade instalada e com distância aproximada de 100 km entre eles.
         - name: bh_rmbh_interior_ipsemg
           type: string
           title: Região Metropolitana de BH ou interior
-          description: Identifica o território do beneficiário a partir da região metropolitana. Valores possíveis  Região Metropolitana de Belo Horizonte (RMBH), Interior (quando não se aplica a Região Metropolitana) e Belo Horizonte (BH)
+          description: Identifica o território do beneficiário a partir da região metropolitana. Valores possíveis  Região Metropolitana de Belo Horizonte (RMBH), 
+          Interior (quando não se aplica a Região Metropolitana) e Belo Horizonte (BH)
         - name: dsc_sexo
           type: string
           title: Descrição do Sexo
@@ -44,11 +53,11 @@ resources:
         - name: desc_faixa_etaria
           type: string
           title: Descrição da Faixa Etária
-          description: Categoria de faixa etária que o beneficiário se enquadra. Aplica-se o padrão ANS.
+          description: Categoria de faixa etária que o beneficiário se enquadra. Aplica-se o padrão da Agência Nacional de Saúde Suplementar (ANS).
         - name: qtde_benef
           type: integer
           title: Quantidade de beneficiários
           description: Apresenta o valor total de beneficiário apresentado por conjunto.
     scheme: file
-    title: Perfil_beneficiario_direito_saude
+    title: Perfil Beneficiário Direito Saúde
 title: Perfil Beneficiário Direito Saúde
