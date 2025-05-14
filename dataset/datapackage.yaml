@@ -16,10 +16,9 @@ resources:
         - name: ano_mes_ref
           type: integer
           title: Data de referência
-          description: > 
-          Ano e mês, respectivamente, correspondente ao dado.
+          description: Ano e mês, respectivamente, correspondente ao dado.
           notes:
-           - Formato - aaaamm.
+           - Formato (aaaa_mm).
         - name: nom_municipio
           type: string
           title: Nome do Município
@@ -31,15 +30,12 @@ resources:
         - name: macro_regional_ipsemg
           type: string
           title: Macrorregião do beneficiário
-          description: >
-          Macrorregião de origem do beneficiário. 
-          A macrorregião é o espaço geográfico que envolve um conjunto de microrregiões agrupadas pela densidade demográfica, hierarquizado em função do nível de atenção primária, 
+          description: Macrorregião de origem do beneficiário. A macrorregião é o espaço geográfico que envolve um conjunto de microrregiões agrupadas pela densidade demográfica, hierarquizado em função do nível de atenção primária, 
           secundária e terciária à saúde com capacidade instalada.
         - name: micro_regional_ipsemg
           type: string
           title: Microrregião do benefiicário
-          description: >
-          Microrregião de origem do beneficiário. A microrregião é o espaço geográfico que envolve um conjunto de municípios agrupados pela densidade demográfica e 
+          description: Microrregião de origem do beneficiário. A microrregião é o espaço geográfico que envolve um conjunto de municípios agrupados pela densidade demográfica e 
           hierarquizado em função do nível de atenção primária, secundária e terciária à saúde, com capacidade instalada e com distância aproximada de 100 km entre eles.
         - name: bh_rmbh_interior_ipsemg
           type: string
