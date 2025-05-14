@@ -34,13 +34,11 @@ resources:
         - name: micro_regional_ipsemg
           type: string
           title: Microrregião do benefiicário
-          description: Microrregião de origem do beneficiário. A microrregião é o espaço geográfico que envolve um conjunto de municípios agrupados pela densidade demográfica e 
-          hierarquizado em função do nível de atenção primária, secundária e terciária à saúde, com capacidade instalada e com distância aproximada de 100 km entre eles.
+          description: Microrregião de origem do beneficiário. A microrregião é o espaço geográfico que envolve um conjunto de municípios agrupados pela densidade demográfica e hierarquizado em função do nível de atenção primária, secundária e terciária à saúde, com capacidade instalada e com distância aproximada de 100 km entre eles.
         - name: bh_rmbh_interior_ipsemg
           type: string
           title: Região Metropolitana de BH ou interior
-          description: Identifica o território do beneficiário a partir da região metropolitana. Valores possíveis  Região Metropolitana de Belo Horizonte (RMBH), 
-          Interior (quando não se aplica a Região Metropolitana) e Belo Horizonte (BH)
+          description: Identifica o território do beneficiário a partir da região metropolitana. Valores possíveis  Região Metropolitana de Belo Horizonte (RMBH), Interior (quando não se aplica a Região Metropolitana) e Belo Horizonte (BH)
         - name: dsc_sexo
           type: string
           title: Descrição do Sexo
