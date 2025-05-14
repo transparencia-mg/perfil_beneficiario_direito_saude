@@ -30,8 +30,7 @@ resources:
         - name: macro_regional_ipsemg
           type: string
           title: Macrorregião do beneficiário
-          description: Macrorregião de origem do beneficiário. A macrorregião é o espaço geográfico que envolve um conjunto de microrregiões agrupadas pela densidade demográfica, hierarquizado em função do nível de atenção primária, 
-          secundária e terciária à saúde com capacidade instalada.
+          description: Macrorregião de origem do beneficiário. A macrorregião é o espaço geográfico que envolve um conjunto de microrregiões agrupadas pela densidade demográfica, hierarquizado em função do nível de atenção primária, secundária e terciária à saúde com capacidade instalada.
         - name: micro_regional_ipsemg
           type: string
           title: Microrregião do benefiicário
