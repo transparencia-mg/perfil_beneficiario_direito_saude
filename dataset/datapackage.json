@@ -4,7 +4,6 @@
   "profile": "data-package",
   "resources": [
     {
-      "description": "Apresenta os principais elementos demográficos — território, sexo e faixa etária — conforme os padrões definidos pela Agência Nacional de Saúde Suplementar (ANS).",
       "dialect": {
         "delimiter": ";"
       },
