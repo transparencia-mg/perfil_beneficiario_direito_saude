@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.363,
+  "time": 0.333,
   "errors": [],
   "tasks": [
     {
@@ -78,13 +78,13 @@
         "scheme": "file",
         "title": "Perfil Beneficiário Direito Saúde",
         "stats": {
-          "hash": "21b881ad19dedd276fc0820c72391859",
+          "hash": "a00ef8189430df58117e01fa72d3d7ad",
           "bytes": 1394444,
           "fields": 9,
-          "rows": 18146
+          "rows": 18148
         }
       },
-      "time": 0.352,
+      "time": 0.324,
       "scope": [
         "hash-count-error",
         "byte-count-error",
