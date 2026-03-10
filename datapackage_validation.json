@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 4.751,
+  "time": 4.72,
   "errors": [],
   "tasks": [
     {
@@ -11,7 +11,7 @@
         "encoding": "utf-8-sig",
         "format": "csv",
         "hashing": "md5",
-        "name": "benef_saude",
+        "name": "beneficiariossaude_2025",
         "path": "data/beneficiariossaude_2025.csv",
         "profile": "tabular-data-resource",
         "schema": {
@@ -84,7 +84,7 @@
           "rows": 218341
         }
       },
-      "time": 4.057,
+      "time": 4.026,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -120,7 +120,7 @@
         "encoding": "utf-8-sig",
         "format": "csv",
         "hashing": "md5",
-        "name": "benef_saude2",
+        "name": "beneficiariossaude_2026",
         "path": "data/beneficiariossaude_2026.csv",
         "profile": "tabular-data-resource",
         "schema": {
@@ -193,7 +193,7 @@
           "rows": 36152
         }
       },
-      "time": 0.675,
+      "time": 0.677,
       "scope": [
         "hash-count-error",
         "byte-count-error",
