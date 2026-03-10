@@ -7,7 +7,7 @@ resources:
     encoding: utf-8-sig
     format: csv
     hashing: md5
-    name: benef_saude
+    name: beneficiariossaude_2025
     path: data/beneficiariossaude_2025.csv
     profile: tabular-data-resource
     schema:
@@ -57,7 +57,7 @@ resources:
     encoding: utf-8-sig
     format: csv
     hashing: md5
-    name: benef_saude
+    name: beneficiariossaude_2026
     path: data/beneficiariossaude_2026.csv
     profile: tabular-data-resource
     schema:
