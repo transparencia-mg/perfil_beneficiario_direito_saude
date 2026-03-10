@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.368,
+  "time": 4.36,
   "errors": [],
   "tasks": [
     {
@@ -12,7 +12,7 @@
         "format": "csv",
         "hashing": "md5",
         "name": "benef_saude",
-        "path": "data/Benef_SAUDE.csv",
+        "path": "data/beneficiariossaude_2025.csv",
         "profile": "tabular-data-resource",
         "schema": {
           "fields": [
@@ -76,15 +76,124 @@
           ]
         },
         "scheme": "file",
-        "title": "Perfil Beneficiário Direito Saúde",
+        "title": "Perfil Beneficiário Direito Saúde 2025",
         "stats": {
-          "hash": "f55193ffb2c1722ef31cd50a04defa95",
-          "bytes": 1393338,
+          "hash": "86f88c6a33f2965a252e67780d2211af",
+          "bytes": 16790044,
           "fields": 9,
-          "rows": 18135
+          "rows": 218341
         }
       },
-      "time": 0.357,
+      "time": 3.722,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "benef_saude2",
+        "path": "data/beneficiariossaude_2026.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "ano_mes_ref",
+              "type": "integer",
+              "title": "Data de referência",
+              "description": "Ano e mês, respectivamente, correspondente ao dado.",
+              "notes": [
+                "Formato (aaaa_mm)."
+              ]
+            },
+            {
+              "name": "nom_municipio",
+              "type": "string",
+              "title": "Nome do Município",
+              "description": "Município de origem do beneficiário"
+            },
+            {
+              "name": "sgl_uf",
+              "type": "string",
+              "title": "UF",
+              "description": "Unidade Federativa referente ao Município de origem do beneficiário."
+            },
+            {
+              "name": "macro_regional_ipsemg",
+              "type": "string",
+              "title": "Macrorregião do beneficiário",
+              "description": "Macrorregião de origem do beneficiário. A macrorregião é o espaço geográfico que envolve um conjunto de microrregiões agrupadas pela densidade demográfica, hierarquizado em função do nível de atenção primária, secundária e terciária à saúde com capacidade instalada."
+            },
+            {
+              "name": "micro_regional_ipsemg",
+              "type": "string",
+              "title": "Microrregião do benefiicário",
+              "description": "Microrregião de origem do beneficiário. A microrregião é o espaço geográfico que envolve um conjunto de municípios agrupados pela densidade demográfica e hierarquizado em função do nível de atenção primária, secundária e terciária à saúde, com capacidade instalada e com distância aproximada de 100 km entre eles."
+            },
+            {
+              "name": "bh_rmbh_interior_ipsemg",
+              "type": "string",
+              "title": "Região Metropolitana de BH ou interior",
+              "description": "Identifica o território do beneficiário a partir da região metropolitana. Valores possíveis  Região Metropolitana de Belo Horizonte (RMBH), Interior (quando não se aplica a Região Metropolitana) e Belo Horizonte (BH)"
+            },
+            {
+              "name": "dsc_sexo",
+              "type": "string",
+              "title": "Descrição do Sexo",
+              "description": "Sexo do beneficiário"
+            },
+            {
+              "name": "desc_faixa_etaria",
+              "type": "string",
+              "title": "Descrição da Faixa Etária",
+              "description": "Categoria de faixa etária que o beneficiário se enquadra. Aplica-se o padrão da Agência Nacional de Saúde Suplementar (ANS)."
+            },
+            {
+              "name": "qtde_benef",
+              "type": "integer",
+              "title": "Quantidade de beneficiários",
+              "description": "Apresenta o valor total de beneficiário apresentado por conjunto."
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Perfil Beneficiário Direito Saúde 2026",
+        "stats": {
+          "hash": "48c1293c0d5a0419c4dba23b6f0473cf",
+          "bytes": 2775758,
+          "fields": 9,
+          "rows": 36152
+        }
+      },
+      "time": 0.62,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -115,7 +224,7 @@
   ],
   "stats": {
     "errors": 0,
-    "tasks": 1
+    "tasks": 2
   },
   "valid": true
 }
