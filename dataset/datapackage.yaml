@@ -2,8 +2,7 @@ name: ipsemg_perfil_beneficiario_direito_saude
 owner_org: instituto-de-previdencia-dos-servidores-do-estado-de-minas-gerais-ipsemg
 profile: data-package
 resources:
-  - description: 2025
-    dialect:
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -53,8 +52,7 @@ resources:
           description: Apresenta o valor total de beneficiário apresentado por conjunto.
     scheme: file
     title: Perfil Beneficiário Direito Saúde 2025
-  - description: 2026
-    dialect:
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
