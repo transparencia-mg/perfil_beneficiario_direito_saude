@@ -1,10 +1,11 @@
 {
   "version": "4.16.6",
-  "time": 4.741,
+  "time": 4.401,
   "errors": [],
   "tasks": [
     {
       "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
         "dialect": {
           "delimiter": ";"
         },
@@ -18,65 +19,44 @@
           "fields": [
             {
               "name": "ano_mes_ref",
-              "type": "integer",
-              "title": "Data de referência",
-              "description": "Ano e mês, respectivamente, correspondente ao dado.",
-              "notes": [
-                "Formato (aaaa_mm)."
-              ]
+              "type": "integer"
             },
             {
               "name": "nom_municipio",
-              "type": "string",
-              "title": "Nome do Município",
-              "description": "Município de origem do beneficiário"
+              "type": "string"
             },
             {
               "name": "sgl_uf",
-              "type": "string",
-              "title": "UF",
-              "description": "Unidade Federativa referente ao Município de origem do beneficiário."
+              "type": "string"
             },
             {
               "name": "macro_regional_ipsemg",
-              "type": "string",
-              "title": "Macrorregião do beneficiário",
-              "description": "Macrorregião de origem do beneficiário. A macrorregião é o espaço geográfico que envolve um conjunto de microrregiões agrupadas pela densidade demográfica, hierarquizado em função do nível de atenção primária, secundária e terciária à saúde com capacidade instalada."
+              "type": "string"
             },
             {
               "name": "micro_regional_ipsemg",
-              "type": "string",
-              "title": "Microrregião do benefiicário",
-              "description": "Microrregião de origem do beneficiário. A microrregião é o espaço geográfico que envolve um conjunto de municípios agrupados pela densidade demográfica e hierarquizado em função do nível de atenção primária, secundária e terciária à saúde, com capacidade instalada e com distância aproximada de 100 km entre eles."
+              "type": "string"
             },
             {
               "name": "bh_rmbh_interior_ipsemg",
-              "type": "string",
-              "title": "Região Metropolitana de BH ou interior",
-              "description": "Identifica o território do beneficiário a partir da região metropolitana. Valores possíveis  Região Metropolitana de Belo Horizonte (RMBH), Interior (quando não se aplica a Região Metropolitana) e Belo Horizonte (BH)"
+              "type": "string"
             },
             {
               "name": "dsc_sexo",
-              "type": "string",
-              "title": "Descrição do Sexo",
-              "description": "Sexo do beneficiário"
+              "type": "string"
             },
             {
               "name": "desc_faixa_etaria",
-              "type": "string",
-              "title": "Descrição da Faixa Etária",
-              "description": "Categoria de faixa etária que o beneficiário se enquadra. Aplica-se o padrão da Agência Nacional de Saúde Suplementar (ANS)."
+              "type": "string"
             },
             {
               "name": "qtde_benef",
-              "type": "integer",
-              "title": "Quantidade de beneficiários",
-              "description": "Apresenta o valor total de beneficiário apresentado por conjunto."
+              "type": "integer"
             }
           ]
         },
         "scheme": "file",
-        "title": "Perfil Beneficiário Direito Saúde 2025",
+        "title": "Insira um título humanamente legível para este recurso.",
         "stats": {
           "hash": "86f88c6a33f2965a252e67780d2211af",
           "bytes": 16790044,
@@ -84,7 +64,7 @@
           "rows": 218341
         }
       },
-      "time": 4.038,
+      "time": 3.756,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -114,6 +94,7 @@
     },
     {
       "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
         "dialect": {
           "delimiter": ";"
         },
@@ -127,65 +108,44 @@
           "fields": [
             {
               "name": "ano_mes_ref",
-              "type": "integer",
-              "title": "Data de referência",
-              "description": "Ano e mês, respectivamente, correspondente ao dado.",
-              "notes": [
-                "Formato (aaaa_mm)."
-              ]
+              "type": "integer"
             },
             {
               "name": "nom_municipio",
-              "type": "string",
-              "title": "Nome do Município",
-              "description": "Município de origem do beneficiário"
+              "type": "string"
             },
             {
               "name": "sgl_uf",
-              "type": "string",
-              "title": "UF",
-              "description": "Unidade Federativa referente ao Município de origem do beneficiário."
+              "type": "string"
             },
             {
               "name": "macro_regional_ipsemg",
-              "type": "string",
-              "title": "Macrorregião do beneficiário",
-              "description": "Macrorregião de origem do beneficiário. A macrorregião é o espaço geográfico que envolve um conjunto de microrregiões agrupadas pela densidade demográfica, hierarquizado em função do nível de atenção primária, secundária e terciária à saúde com capacidade instalada."
+              "type": "string"
             },
             {
               "name": "micro_regional_ipsemg",
-              "type": "string",
-              "title": "Microrregião do benefiicário",
-              "description": "Microrregião de origem do beneficiário. A microrregião é o espaço geográfico que envolve um conjunto de municípios agrupados pela densidade demográfica e hierarquizado em função do nível de atenção primária, secundária e terciária à saúde, com capacidade instalada e com distância aproximada de 100 km entre eles."
+              "type": "string"
             },
             {
               "name": "bh_rmbh_interior_ipsemg",
-              "type": "string",
-              "title": "Região Metropolitana de BH ou interior",
-              "description": "Identifica o território do beneficiário a partir da região metropolitana. Valores possíveis  Região Metropolitana de Belo Horizonte (RMBH), Interior (quando não se aplica a Região Metropolitana) e Belo Horizonte (BH)"
+              "type": "string"
             },
             {
               "name": "dsc_sexo",
-              "type": "string",
-              "title": "Descrição do Sexo",
-              "description": "Sexo do beneficiário"
+              "type": "string"
             },
             {
               "name": "desc_faixa_etaria",
-              "type": "string",
-              "title": "Descrição da Faixa Etária",
-              "description": "Categoria de faixa etária que o beneficiário se enquadra. Aplica-se o padrão da Agência Nacional de Saúde Suplementar (ANS)."
+              "type": "string"
             },
             {
               "name": "qtde_benef",
-              "type": "integer",
-              "title": "Quantidade de beneficiários",
-              "description": "Apresenta o valor total de beneficiário apresentado por conjunto."
+              "type": "integer"
             }
           ]
         },
         "scheme": "file",
-        "title": "Perfil Beneficiário Direito Saúde 2026",
+        "title": "Insira um título humanamente legível para este recurso.",
         "stats": {
           "hash": "48c1293c0d5a0419c4dba23b6f0473cf",
           "bytes": 2775758,
@@ -193,7 +153,7 @@
           "rows": 36152
         }
       },
-      "time": 0.684,
+      "time": 0.628,
       "scope": [
         "hash-count-error",
         "byte-count-error",
