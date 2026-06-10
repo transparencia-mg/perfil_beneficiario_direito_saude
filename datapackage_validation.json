@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 7.58,
+  "time": 5.88,
   "errors": [],
   "tasks": [
     {
@@ -84,7 +84,7 @@
           "rows": 218341
         }
       },
-      "time": 3.76,
+      "time": 4.143,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -187,13 +187,13 @@
         "scheme": "file",
         "title": "Perfil Beneficiário Direito Saúde 2026.",
         "stats": {
-          "hash": "4f53cc0f222af5a0881d09972e07a923",
-          "bytes": 16790044,
+          "hash": "3bbb5a378bf4e1faf9b1dfc430d5db26",
+          "bytes": 6946528,
           "fields": 9,
-          "rows": 218341
+          "rows": 90460
         }
       },
-      "time": 3.786,
+      "time": 1.708,
       "scope": [
         "hash-count-error",
         "byte-count-error",
